@@ -1,0 +1,69 @@
+{
+  "project": {
+    "name": "WiM",
+    "quality": 1
+  },
+  "loader": {
+    "items": "data/data.csv",
+    "textures": {
+      "medium": {
+        "size": 256,
+        "url": "data/spritesheet.json"
+      },
+      "detail": {
+        "size": 1024,
+        "url": "data/1024"
+      },
+      "big": {
+        "size": 4096,
+        "url": "data/4096"
+      }
+    }
+  },
+  "style": {
+    "fontColor": "#2d3b43",
+    "fontColorActive": "#eae2cb",
+    "fontBackground": "#295b71",
+    "textShadow": "1px 1px 0px #f8f4e9",
+    "canvasBackground": "#eae2cb",
+    "timelineBackground": "#fff9eb",
+    "timelineFontColor": "#000",
+    "backgroundHeader": "#035151",
+    "fontColorHeader": "#f8774f",
+    "detailBackground": "#EEE",
+    "infoBackground": "#33444c",
+    "infoFontColor": "#fff",
+    "searchbarBackground": "#295b71"
+  },
+  "projection": {
+    "columns": 3
+  },
+  "detail": {
+    "structure": [
+      {
+        "name": "Likes",
+        "source": "likes",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Keywords",
+        "source": "keywords",
+        "display": "column",
+        "type": "array"
+      },
+      {
+        "name": "Jahr",
+        "source": "year",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "id",
+        "source": "id",
+        "display": "column",
+        "type": "text"
+      }
+    ]
+  }
+}
