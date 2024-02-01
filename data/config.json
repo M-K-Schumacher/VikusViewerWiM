@@ -8,7 +8,7 @@
     "textures": {
       "medium": {
         "size": 256,
-        "url": "data/spritesheet.json"
+        "url": "data/sprites/spritesheet.json"
       },
       "detail": {
         "size": 1024,
